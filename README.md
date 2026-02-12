@@ -11,7 +11,7 @@ Kernel code using C and Assembly 16bits:
 
 ------
 
-This project was originally made by  [OliveStem](https://www.youtube.com/@olivestemlearning) on YT [Playlist](https://www.youtube.com/playlist?list=PL2EF13wm-hWCoj6tUBGUmrkJmH1972dBB).
+This project was originally made by  [OliveStem](https://www.youtube.com/@olivestemlearning) on YT, [Playlist](https://www.youtube.com/playlist?list=PL2EF13wm-hWCoj6tUBGUmrkJmH1972dBB).
 
 The original [Github project](https://github.com/scprogramming/JazzOS/)
 
@@ -39,7 +39,6 @@ $ make buildRun
 ```
 
 -------------
-
 # Debug:
 ##### run qemu emulator with:
 ```bash
@@ -63,7 +62,6 @@ $ gdb
 ```
 
 -------------
-
 # Tools used:
 ### Run:
 * qemu emulator (qemu-system-i386).
