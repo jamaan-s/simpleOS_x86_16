@@ -9,15 +9,15 @@ Implemented Kernel code using C and Assembly 16bits:
 * put, puts, put_f.
 * printf.
 
-------
+## Credits:
+***
 
 This project was originally made by  [OliveStem](https://www.youtube.com/@olivestemlearning) on YT, [Playlist](https://www.youtube.com/playlist?list=PL2EF13wm-hWCoj6tUBGUmrkJmH1972dBB).
 
 The original [Github project](https://github.com/scprogramming/JazzOS/)
 
--------------
-
-### Run:
+## Run:
+***
 ```bash
 $ make run
 ```
@@ -26,10 +26,8 @@ or
 $ qemu-system-i386 -fda build/main.img
 ```
 
-
--------------
-
-### Build:
+## Build:
+***
 ```bash
 $ make
 ```
@@ -38,13 +36,13 @@ $ make
 $ make buildRun
 ```
 
+## Debug:
 -------------
-### Debug:
 **run qemu emulator with**:
 ```bash
 $ make debug
 ```
-or
+**or**
 ```bash
 $ qemu-system-i386 -fda build/main.img -s -S
 ```
@@ -61,11 +59,11 @@ $ gdb
 (gdb) br *0x7C00
 ```
 
--------------
-### Tools used:
-###### Run:
+## Tools used:
+***
+###### To run:
 * qemu emulator (qemu-system-i386).
-###### Build:
+###### To build:
  **Required**:
 * Nasm (to compile 16bits assembly files).
 * Watcom 32bit compiler (to compile 16 bits C code). 
@@ -75,11 +73,11 @@ $ gdb
  **Other**:
 * gdb (debugging).
 
- **Notes**:
-	i used "Watcom 32bit" because the 64bit failed to install on WSL ubuntu VM, the 32bit worked just fine.
+ **Notes*:
+	I used "Watcom 32bit" because the 64bit failed to install on WSL ubuntu VM, the 32bit worked just fine.
 
------------
-
+***
 **This project was made and tested in side a Linux VM using (WSL with ubuntu image) on Win11**.
 *WSL version: 2.6.3.0*
 *Ubuntu image: 24.0.04*
+
