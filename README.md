@@ -10,14 +10,11 @@ Implemented Kernel code using C and Assembly 16bits:
 * printf.
 
 ## Credits:
-============
-
 This project was originally made by  [OliveStem](https://www.youtube.com/@olivestemlearning) on YT, [Playlist](https://www.youtube.com/playlist?list=PL2EF13wm-hWCoj6tUBGUmrkJmH1972dBB).
 
 The original [Github project](https://github.com/scprogramming/JazzOS/)
 
 ## Run:
-============
 ```bash
 $ make run
 ```
@@ -27,7 +24,6 @@ $ qemu-system-i386 -fda build/main.img
 ```
 
 ## Build:
-============
 ```bash
 $ make
 ```
@@ -37,7 +33,6 @@ $ make buildRun
 ```
 
 ## Debug:
-============
 **run qemu emulator with**:
 ```bash
 $ make debug
@@ -60,7 +55,6 @@ $ gdb
 ```
 
 ## Tools used:
-============
 ###### To run:
 * qemu emulator (qemu-system-i386).
 ###### To build:
@@ -76,7 +70,7 @@ $ gdb
  **Notes*:
 	I used "Watcom 32bit" because the 64bit failed to install on WSL ubuntu VM, the 32bit worked just fine.
 
-============
+---
 **This project was made and tested in side a Linux VM using (WSL with ubuntu image) on Win11**.
 *WSL version: 2.6.3.0*
 *Ubuntu image: 24.0.04*
