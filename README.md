@@ -59,14 +59,14 @@ $ gdb
 * qemu emulator (qemu-system-i386).
 
 **To build**:
-   **Required**:
-	* Nasm (to compile 16bits assembly files).
-	* Watcom 32bit compiler (to compile 16 bits C code). 
-	* mkfs.fat (to create a FAT12 filesystem).
-	* mcopy.
-	* make.
-  **Other**:
-	* gdb (debugging).
+*  Nasm (to compile 16bits assembly files).
+* Watcom 32bit compiler (to compile 16 bits C code). 
+* mkfs.fat (to create a FAT12 filesystem).
+* mcopy.
+* make.
+
+**Other**:
+*  gdb (debugging).
 
  **Notes**:
 	I used "Watcom 32bit" because the 64bit failed to install on WSL ubuntu VM, the 32bit worked just fine.
