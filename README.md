@@ -1,5 +1,7 @@
 **Bootloader and a Kernel from scratch 16bits assembly and C**.
 
+*This project was made for learning proposes (not a production ready code).*
+
 Implemented Bootloader code using Assembly 16bits:
 * Header for floppy image.
 * Print to screen.
