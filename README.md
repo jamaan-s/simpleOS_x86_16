@@ -1,4 +1,4 @@
-Bootloader and a Kernel from scratch 16bits assembly and C.
+**Bootloader and a Kernel from scratch 16bits assembly and C**.
 
 Implemented Bootloader code using Assembly 16bits:
 * Header for floppy image.
@@ -17,7 +17,7 @@ The original [Github project](https://github.com/scprogramming/JazzOS/)
 
 -------------
 
-# Run:
+### Run:
 ```bash
 $ make run
 ```
@@ -29,18 +29,18 @@ $ qemu-system-i386 -fda build/main.img
 
 -------------
 
-# Build:
+### Build:
 ```bash
 $ make
 ```
-### build and run:
+**build and run**:
 ```bash
 $ make buildRun
 ```
 
 -------------
-# Debug:
-##### run qemu emulator with:
+### Debug:
+**run qemu emulator with**:
 ```bash
 $ make debug
 ```
@@ -48,34 +48,34 @@ or
 ```bash
 $ qemu-system-i386 -fda build/main.img -s -S
 ```
-##### in another window terminal run gdb:
+**in another window terminal run gdb**:
 ```bash
 $ gdb
 ```
-##### in gdb connect gdb to qemu:
+**in gdb connect gdb to qemu**:
 ```bash-gdb
 (gdb) target remote localhost:1234
 ```
-##### in gdb set breakpoint (at the start of the code address):
+**in gdb set breakpoint (at the start of the code address)**:
 ```bash-gdb
 (gdb) br *0x7C00
 ```
 
 -------------
-# Tools used:
-### Run:
+### Tools used:
+###### Run:
 * qemu emulator (qemu-system-i386).
-### Build:
-##### Required:
+###### Build:
+ **Required**:
 * Nasm (to compile 16bits assembly files).
 * Watcom 32bit compiler (to compile 16 bits C code). 
 * mkfs.fat (to create a FAT12 filesystem).
 * mcopy.
 * make.
-##### Other:
+ **Other**:
 * gdb (debugging).
 
- Notes:
+ **Notes**:
 	i used "Watcom 32bit" because the 64bit failed to install on WSL ubuntu VM, the 32bit worked just fine.
 
 -----------
