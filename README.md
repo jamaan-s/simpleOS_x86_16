@@ -1,11 +1,11 @@
 Bootloader and a Kernel from scratch 16bits assembly and C.
 
-Bootloader code using Assembly 16bits:
+Implemented Bootloader code using Assembly 16bits:
 * Header for floppy image.
 * Print to screen.
 * Read and load kernel from other files into memory.
 
-Kernel code using C and Assembly 16bits: 
+Implemented Kernel code using C and Assembly 16bits: 
 * put, puts, put_f.
 * printf.
 
