@@ -67,10 +67,10 @@ $ gdb
  **Other**:
 * gdb (debugging).
 
- **Notes*:
+ **Notes**:
 	I used "Watcom 32bit" because the 64bit failed to install on WSL ubuntu VM, the 32bit worked just fine.
 
----
+## 
 **This project was made and tested in side a Linux VM using (WSL with ubuntu image) on Win11**.
 *WSL version: 2.6.3.0*
 *Ubuntu image: 24.0.04*
